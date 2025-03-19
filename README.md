@@ -33,8 +33,10 @@ Increase Dataset Size When:
     Your model performs well on training data but poorly in the real world.
     You’re using a complex model (like deep CNNs) — they need lots of data to generalize well.
 
-1. Your model achieves high accuracy very quickly — this means it’s likely memorizing.
-<img src="">
+1. Your model achieves high accuracy very quickly like the image below
+<img src="./assets/high_accuracy.png" width="200" height="175">
+This basically means that your model is too smart for the amount of data your giving it (giving a spelling book to someone in college etc).
+
 
 2️⃣ Number of Epochs
 🔼 Increase Epochs When:
