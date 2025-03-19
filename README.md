@@ -3,11 +3,15 @@
 ## Overview
 
 This is a small project using a neural network to locate and then blur your face.
+<br>
+### Navigation
+**[Requirements](#requirements)**
+<br>
+[GPU requirements](#gpu)
+<br>
+[Dataset size](#dataset)
 
 ## Requirements
-
-
-
 ### Dependencies
 
 To get started, you'll need to install the required libraries. You can install them using `pip`:
@@ -24,7 +28,8 @@ Any NVIDIA GPU will do better than most AMD or Intel GPU. NVIDIA has Compute Uni
 </div>
 This shows the training performance of lots of consumer cards of NVIDIA, AMD and Intel. Bear in mind the higher score, the better it will perform in training which includes epochs, processing and most other things.
 
-### When to increase / decrease the dataset (amount of images)
+### Dataset
+The dataset is the amount of images which you are putting into it.
 **Increase Dataset Size When:**
 
 1. Your model achieves high accuracy very quickly like the image below
@@ -36,10 +41,8 @@ This basically means that your model is too smart for the amount of data your gi
 
 3. Your model when being used doesnt detect faces very well. you will see this yourself
 
-   
+### Epochs
 **Increase Epochs When:**
-
-    The model is still learning — loss is decreasing steadily, and accuracy is still improving.
 
 1. You’re training on a larger dataset. (>1000 images  start to consider it)
   
