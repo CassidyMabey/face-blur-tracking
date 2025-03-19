@@ -14,8 +14,24 @@ This is a small project using a neural network to locate and then blur your face
 [Epochs amount](#epochs)
 
 ## Setup
-### Training your own model
+### Downloading
+There are many ways you can download this. The easiest way if you are a beginner is to click on the green `Code` button.
+<br>
+<img src="./assets/codeButton.PNG" width=133 height=43>
+<br>
+This will give you a dropdown where you can go to `Download ZIP` and download the zipped repository.
+<br>
+Once downloaded, you can extract it using windows or an external tool.
+<br><br>
+but you can do it via GIT aswell for people with more experience
+```
+git clone https://github.com/CassidyMabey/face-blur-tracking.git
+```
 
+### Training your own model
+Once you have [downloaded](#downloading) the repository, go into the `training.py` file. This is where all of the training will occur.
+<br>
+Next make sure you have set up the directory
 ## Requirements
 ### Dependencies
 
