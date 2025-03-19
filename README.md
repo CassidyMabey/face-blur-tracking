@@ -10,6 +10,11 @@ This is a small project using a neural network to locate and then blur your face
 [GPU requirements](#gpu)
 <br>
 [Dataset size](#dataset)
+<br>
+[Epochs amount](#epochs)
+
+## Setup
+### Training your own model
 
 ## Requirements
 ### Dependencies
