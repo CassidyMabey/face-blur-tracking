@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a small project using a neural network to locate and then blur your face.
+This is a small project using a neural network to locate and then blur your face with your own, or pretrained models.
 <br>
 
 ## Requirements
