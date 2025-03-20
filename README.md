@@ -74,6 +74,18 @@ Make sure to close out of it (dont worry it saves to `output/training_history.pn
 
 Well Done! you have now successfully trained a neural network.
 
+### Using Your Own Models
+To use your own model, it is alot simpler. If you don't have a model you can [train your own model](#training-your-own-model) or you can a pretrained one from `./pretrained_models`.
+<br>
+If you have trained your own model, go into the `tracking.py` and find the variable called `MODEL_PATH` and then set it to the location of your model which will be  `MODEL_PATH = "./output/face_tracking_model"` if you havent moved it.
+<br><br>
+Otherwise go into the `tracking.py` and find the variable called `MODEL_PATH` and then set it to the location of your model e.g `MODEL_PATH = "./pretrained_models/2000images_5epochs"`.
+
+<br>
+After that, a window should open which will display out of your camera with the:
+
+FPS - the amount of frames your model is processing a second
+Faces - the amount of faces the model sees
 
 ### Dependencies
 
