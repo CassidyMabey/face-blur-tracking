@@ -1,4 +1,5 @@
-tensorflow
-opencv-python
-scikit-learn
 numpy
+opencv-python
+tensorflow
+scikit-learn
+matplotlib
