@@ -4,14 +4,6 @@
 
 This is a small project using a neural network to locate and then blur your face.
 <br>
-### Navigation
-**[Requirements](#requirements)**
-<br>
-[GPU requirements](#gpu)
-<br>
-[Dataset size](#dataset)
-<br>
-[Epochs amount](#epochs)
 
 ## Requirements
 
