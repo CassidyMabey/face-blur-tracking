@@ -87,6 +87,9 @@ After that, a window should open which will display out of your camera with the:
 FPS - the amount of frames your model is processing a second
 Faces - the amount of faces the model sees
 
+<br>
+Then, once a face is recognised, it will draw a green square around it and all of the area inside of it will be blurred.
+
 ### Dependencies
 
 To get started, you'll need to install the required libraries. You can install them using `pip`:
