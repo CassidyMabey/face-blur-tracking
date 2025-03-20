@@ -5,6 +5,7 @@
 This is a small project using a neural network to locate and then blur your face with your own, or pretrained models.
 <br>
 
+
 ## Requirements
 
 ## Setup
@@ -45,7 +46,7 @@ face-blur-tracking/
 ```
 <br>
 
-You only need to create the `./output`, `./output/faces` and fill `./samples` with your images.
+You only need to create the `./output`, `./output/faces` and fill `./samples` with your images. If your struggling to find images for your samples folder, [where to find training data](#where-to-find-training-data)
 <br>
 
 Finally, you can run the `training.py` using the command below
@@ -65,6 +66,9 @@ Make sure to close out of it (dont worry it saves to `output/training_history.pn
 <br>
 
 Well Done! you have now successfully trained a neural network.
+
+#### Where to find training data
+I looked everywhere for a place where i could get images of faces but here you guys go https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
 ### Using Your Own Models
 To use your own model, it is alot simpler. If you don't have a model you can [train your own model](#training-your-own-model) or you can a pretrained one from `./pretrained_models`.
