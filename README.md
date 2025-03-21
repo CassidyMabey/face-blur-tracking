@@ -3,6 +3,9 @@
 ## Overview
 
 This is a small project using a neural network to locate and then blur your face with your own, or pretrained models.
+
+Time to make: ~2 days researsch & 5 days planning then coding
+
 <br>
 
 
